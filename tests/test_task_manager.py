@@ -46,7 +46,7 @@ def test_update_task_status():
 def test_delete_task():
     tasks = sample_tasks()
     result = delete_task(tasks, 1)
-    assert len(result) == 1
+    assert len(result) == 99
     assert result[0]["id"] == 2
 
 def test_search_task_by_assignee():
